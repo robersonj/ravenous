@@ -17,14 +17,14 @@ class Business extends React.Component {
   render() {
     return (
       <div className="Business">
-        <div class="image-container">
+        <div className="image-container">
           <img
             src={business.imageSrc}
             alt=''/>
         </div>
         <h2>{business.name}</h2>
         <div className="Business-information">
-          <div class="Business-address">
+          <div className="Business-address">
             <p>{business.address}</p>
             <p>{business.city}</p>
             <p>{business.state + ' ' + business.zipCode}</p>
@@ -38,6 +38,6 @@ class Business extends React.Component {
     </div>
     );
   }
-};
+}
 
 export default Business;
